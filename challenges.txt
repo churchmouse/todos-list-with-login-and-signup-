@@ -1,0 +1,6 @@
+ I faced couple of challenges 
+    -The SIMPLE validation( validates only for empty spaces and not complex email regex patterns) works but i can't seem to make it work if i leave all spaces empty (e.g error rendered should be Please fill all the spaces above)
+    -Am using react-router to move through the various pages of the web app (login, sign up), i can move between login and signup in chrome easily but i can't do the same in mozilla
+    -please not i used flux instead of redux as my methodology in the app development process, so i created a store(memberStorage.js) for password and user email accounts, i gave it some initial data and the two components that is sigup.js and login.js send actions to this store and also pull data from this store please its still work in progress 
+    -Other miscellanious design incompatibilities between mozilla and chrome as to be expected from a novice designer such as myself
+   
