@@ -5,7 +5,7 @@ export default class Header extends React.Component{
         return(
             <div>
                 <div className="header">
-                    <div id="title">Tudus.com</div>
+                    <div id="title">Todos.com</div>
                 </div>
             </div>
         );
